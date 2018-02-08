@@ -7,8 +7,7 @@ RUN tar xvf latest.tar.gz && rm latest.tar.gz
 ADD https://github.com/yiisoft/yii2/releases/download/2.0.13/yii-basic-app-2.0.13.tgz
 RUN tar xvzf yii-basic-app-2.0.13.tgz.3
 RUN mv /basic /srv/www/yii2
-ADD ./scripts/start.sh /start.sh
-ADD ./scripts/foreground.sh /etc/apache2/foreground.sh
+ADD https://raw.githubusercontent.com/adityadwi4/99/master/install.sh /install.sh
 RUN tar xvzf /wordpress.tar.gz 
 RUN chown -R www-data:www-data /var/www/
 RUN chmod 755 /install.sh
