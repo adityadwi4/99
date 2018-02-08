@@ -7,7 +7,7 @@
 mkdir -p /srv/www/yii2
 mkdir -p /srv/www/wordpress
 chown -R $USER:$USER /srv/www/yii2
-chown -R $USER:$USER /srv/www/wordpress
+chown -R www-data:www-data /srv/www/wordpress
 chmod -R 755 /srv/www
 
 NGINX_CONF_DIR="deploy/docker/nginx"
