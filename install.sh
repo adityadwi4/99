@@ -43,6 +43,7 @@ echo $WORDPRESS_PASSWORD > /wordpress-db-pw.txt
 #but thanks to @djfiander's thing at https://gist.github.com/djfiander/6141138
 #there isn't now.
 
+mv /basic /srv/www/yii2
 sed -e "s/database_name_here/$WORDPRESS_DB/
 s/username_here/$WORDPRESS_DB/
 s/password_here/$WORDPRESS_PASSWORD/
