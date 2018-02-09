@@ -1,0 +1,8 @@
+<html>
+    <head>
+        <title>Welcome to yii2!</title>
+    </head>
+    <body>
+        <h1>Success!  The Yii2 server block is working!</h1>
+    </body>
+</html>
