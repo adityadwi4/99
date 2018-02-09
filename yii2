@@ -39,7 +39,7 @@ server {
         index index.php index.html index.htm index.nginx-debian.html;
 
         server_name yii2.com www.yii2.com;
-        rewrite ^/$ /$request_uri/web redirect;
+        #rewrite ^/$ /$request_uri/web redirect;
 
         location / {
                 # First attempt to serve request as file, then
