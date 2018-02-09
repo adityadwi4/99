@@ -16,7 +16,6 @@ https://raw.githubusercontent.com/adityadwi4/99/master/yii2-index
 mv wordpress-index /srv/www/wordpress/index.html
 mv yii2-index /srv/www/yii2/index.html
 
-NGINX_CONF_DIR="deploy/docker/nginx"
 NGINX_SITES_AVAILABLE="/etc/nginx/sites-available"
 NGINX_SITES_ENABLED="/etc/nginx/sites-enabled"
 
